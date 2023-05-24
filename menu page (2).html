@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Menu</title>
+    <link rel="styleshteet"href="style.css">
+    <style>
+    .main{
+    width: 1170px;
+    margin: 10px;
+    padding-left:110px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 2px 30px 110px;
+}
+
+.section-title before {
+content: '';
+position: absolute;
+width: 60px;
+height: 3px;
+background-color: #00875c;
+bottom: 30px;
+left: 50%;
+}
+.section-title h2 {
+text-transform: capitalize;
+font-size: 39px;
+position: relative;
+display: inline-block;
+padding-bottom: 20px;
+margin-bottom: 10px;
+}
+.menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-column {
+    width: 30%;
+}
+
+.menu-column h4 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight:500px;
+    margin-bottom:5px;
+    position:relative;
+    padding-bottom:6px
+}
+.menu-column h4:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #00875c;
+    bottom: 0;
+}
+
+.single-menu {
+    display: flex;
+    align-items: centre;
+}
+
+.single-menu .menu content h5 {
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight:500;
+    border-bottom:1px dashed #222;
+    padding-bottom: 5px;
+}
+
+.single-menu-img {
+    border-radius: 60%;
+    max-width: 120px;
+}
+
+.single-menu img {
+    border-radius: 60%;
+    max-width: 211px;
+    border: 1px dashed #ddd;
+    margin-right: 16px;
+}
+
+.single-menu .menu content h5 {
+    text-transform: capitalize;
+    font-size:200px;
+    font-weight:500;
+    border-bottom:1px dashed #222;
+    padding-bottom:222px;
+    
+}
+.single-menu .menu-content h5 span{
+    color:tomato;
+    float: right;
+    font-weight: 600;
+    font-style: italic;
+}
+body{
+    background-image: linear-gradient(rgba(24,227,119,0.8),rgba(153,153,216,0.8));
+}
+
+
+    </style>
+
+</head>
+<body>
+     <div class="main">
+        <div class="section-title">
+            <h1 style="font-size: 50px">Our Menu</h1>
+            <p></p>
+     </div>
+     <div class="menus">
+        <div class="menu-column">
+            <h4>breakfast</h4>
+            <div class="single-menu">
+                <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"width="275px"height="183"alt="">
+                <div class="menu-content">
+                    <h3>Pasta<span>$50</span></h3>
+                    <h5><p>White Sauce, Red Sauce</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg"width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Paneer Tikka<span> $50</span></h3>
+                    <h5><p>Hand made food from our Best chefs</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAhfwoAqLSGry3JhxmQ4MwVifd_rCmS9_cgFHYZHuIyeVlSLYxcJo12MbeEHrffAorZdE&usqp=CAU"alt="">
+                <div class="menu-content">
+                    <h3>Shahi Paneer<span> $50</span></h3>
+                   <h5><p>Made from Best quality Paneer</p></h5>
+                </div>
+            </div>
+        </div><div class="menu-column">
+            <h4>Lunch</h4>
+            <div class="single-menu">
+                <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg"width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Butter Chiken<span> $50</span></h3>
+                    <h5><p>From our best Chefs</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://media.istockphoto.com/id/1295387240/photo/delicious-meal.jpg?s=170667a&w=0&k=20&c=0z13j1O0FM--QByLkbo-xGCBAQmaIYOMrU7sDWZ9EQA="width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Sarson Ka Saag<span> $50</span></h3>
+                    <h5><p>With Makki di Roti</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://media.istockphoto.com/id/496389174/photo/delicious-hamburgers.jpg?s=170667a&w=0&k=20&c=U0AV_V5NVHNdrm5yt9v0Yk0Z9UIBZOfkLI-3VGlqF1g="width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Dal Tadka<span>$50</span></h>
+                    <h5><p>A spicy Touch</p></h5>
+                </div>
+            </div>
+        </div>
+        <div class="menu-column">
+            <h4>Dinner</h4>
+            <div class="single-menu">
+                <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=pexels-ella-olsson-1640772.jpg&fm=jpg"width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Mix Veg<span> $50</span></h>
+                    <h5><p>From top quality Vegetables</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://www.daysoftheyear.com/wp-content/uploads/national-fast-food-day.jpg"width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Butter Roti<span> $50</span></h3>
+                    <h5><p>Ghr Jaisa Swaad</p></h5>
+                </div>
+            </div>
+            <div class="single-menu">
+                <img src="https://media.istockphoto.com/id/496389174/photo/delicious-hamburgers.jpg?s=170667a&w=0&k=20&c=U0AV_V5NVHNdrm5yt9v0Yk0Z9UIBZOfkLI-3VGlqF1g="width="275px"height="183alt="">
+                <div class="menu-content">
+                    <h3>Raita<span> $50</span></h>
+                    <h5><p>Have a taste of our best Raita</p></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> </span>    
+</body>
+</html>

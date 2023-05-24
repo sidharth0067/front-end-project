@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  ;<link rel="stylesheet" href="ass1.css">
+</head>
+<body>
+  <header>
+    <a href="ass1.html" class="logo" >
+      <img src="logo.png" alt="foodie logo" width="150px">
+    </a> 
+    <nav class="navbar">
+      <a href="ass1.html">Home</a>
+      <a href="#restaurants" onclick="scrollDown()">Top restaurants</a>
+      <a href="menu page (2).html">Menu</a>
+      <a href="signin.html" style="font-size: 3rem; font-weight: 600;">LogIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="headings">
+      <p1 style="color: #25ac5d;">ORDER <br>YOUR <br>FAVOURITE<br> FOOD<br> </p1>
+      <P2 style="color: #F39C12;">NOW<br> TO YOUR <br>DOOR <br>STEP</P2>
+    </div>
+    <br><br><br><br>
+    <div>
+      <center>
+        <div class="order"><i>
+          <p1 style="color: #25ac5d;">Order</p1>
+          <p2 style="color: #F39C12; ">Now</p2>
+          </i>
+        </div>
+        <form action="form.php" class="searchbar">
+          <input type="text" style="width: 18cm; height: 1.3cm; border-radius: 0.3cm;padding-left: 1rem ;font-size: .5cm;background:rgba(218, 238, 214, 0.863);color: rgb(255, 39, 39); font-weight: 400;" placeholder="  Enter your cravings here...">
+        </form>
+        <a href="#searchbt" class="searchbt">search
+        </a>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="burger">
+          <img src="burger.png" alt="">
+        </div>
+        <div class="salad">
+          <img src="pngwing.com.png" alt="salad">
+        </div>
+        <div class="restaurants">
+          <h>Top restaurants</h>
+        </div>
+
+        <div class="container-box">
+        <div class="box">
+          <img class="image" src="resto/dd.jpeg" alt="rest1" >
+          <div class="content">
+            <h1 style="color: #F39C12;">The Italia</h1>
+            <p>Reserve your table at The Italia.<br> Explore the tasty menu they are offering</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="resto/cotta.webp" alt="rest1" >
+          <div class="content">
+            <h1 style="color: #F39C12;">The Cottage</h1>
+            <p>Bring your date to The Cottage<br> and have the perfect dinner under the lights</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="resto/header-img-new-restaurants-in-chandigarh7.jpg" alt="rest1">
+          <div class="content">
+            <h1 style="color: #F39C12;">Piccante</h1>
+            <p>Explore the delicious menu at Piccante <br> and have the best food in city</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="resto/new-interiors.jpg" alt="rest1">
+          <div class="content">
+            <h1 style="color: #F39C12;">Eddies Chandigarh</h1>
+            <p>Now enjoy Eddies in chandigarh too<br>How about a lunch buffet in Eddies? </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="resto/46.webp" alt="rest1" >
+          <div class="content">
+            <h1 style="color: #F39C12;">Virgin Courtyard</h1>
+            <p>Bring out your family for a dinner<br> Explore the variety of food in our buffet.</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="resto/kalsang-restaurant-chandigarh.jpg" alt="rest1" >
+          <div class="content">
+            <h1 style="color: #F39C12;">sector 7 Social</h1>
+            <p>Enjoy the pocket friendly packages<br> at sector 7 social. Hop on to the bar too!</p>
+          </div>
+        </div>
+
+         
+        </div>
+      </center>
+    </div>
+
+    <div class="last">
+      <div class="review">
+      <h><center>Reviews</center></h></div>
+      <div class="name"><p><center>Shreya</center> </p></div>
+      <div class="comment"><p>" I ordered a chicken salad from this website <br>and the delievery was very fast and the food was still hot. Nice work @foodvillage team. " </p>
+      </div></div>
+  </main>
+
+  <footer>
+    <p>Copyright- Food Village pvt. ltd. </p>
+    <p>collective project by : Group 8 (food ordering website)</p>
+  </footer>
+
+
+  <script>function scrollDown() {
+    var contentElement = document.getElementById("restaurants");
+    contentElement.scrollTop = contentElement.scrollHeight;</script>
+  
+</body>
+</html>

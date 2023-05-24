@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singup.css">
+</head>
+<body>
+    <header>
+        <a href="ass1.html" class="logo" >
+          <img src="logo.png" alt="foodie logo" width="150px">
+        </a> 
+        <nav class="navbar">
+          <a href="ass1.html">Home</a>
+          <a href="#restaurants">Top restaurants</a>
+          <a href="menu page (2).html">Menu</a>
+          <a href="signin.html" style="font-size: 2rem; font-weight: 600;">LogIn</a> 
+        </nav>
+      </header>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <input type="Email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <input type="Password" placeholder="Password">
+                    </div>
+                    <p>Forgot Password <a href="#">Click here</a> ?</p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign in</button>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="http://google.com"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.skype.com/en/"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+                <p id="text2">OR login with !!!</p>
+            </form>
+        </div>
+        <div class="img1">
+            <img src="pngwing.com.png" alt="pasta">
+        </div>
+        <main>
+        <p id="offer1">50%</p>
+        <p id="offer2">OFF on <br> your first order...</p>
+        <p id="offer3"><i>Sign In now....</i></p>
+    </div>
+      </main>
+
+<script>
+    
+
+let signupBtn = document.getElementById("signupBtn");
+let signinBtn = document.getElementById("signinBtn");
+let nameField = document.getElementById("nameField");
+let title = document.getElementById("title");
+
+
+
+signinBtn.onclick = function(){
+    nameField.style.maxHeight = "0";
+    title.innerHTML = "Sign in";
+    signupBtn.classList.add("disable");
+    signinBtn.classList.remove("disable");
+
+
+}
+
+
+
+
+
+</script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+
+</body>
+</html>
