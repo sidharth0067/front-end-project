@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{ 
+    font-family: sans-serif;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .32s linear;
+  }
+  *::selection{
+    background: var(--red);
+    color: orangered;
+  
+  }
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+  
+  }
+  .login{
+    font-size: .7cm;
+    font-weight: 600;
+    border-width: 1mm;
+    border-radius: 2cm;
+  }
+  
+  .login :hover{
+    transform: scale(1.2);
+  }
+
+
+header{
+  position: fixed;
+  width: 27cm;
+  top: 4%; left: 10%; right: 10%;
+  z-index: 100;
+  align-items: center;
+  border-radius: 5cm;
+  height: 0.7cm;
+  justify-content: space-between;
+  background-color: #2fdf78cb;
+  padding: 5rem 9%;
+  display: flex;
+  box-shadow: inset 4px -2rem 2rem 15px #72938080;
+
+}
+
+header .logo{
+  margin-left: -1cm;
+  color: var(--red);
+  
+}
+html{
+  font-size:62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+
+}
+header .navbar a{
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 2rem;
+  font-style: bold;
+  color: white;
+  font-weight: 500;
+  justify-content: flex-end;
+  height: 1cm;
+}
+header .navbar a:hover{
+  color: #F39C12;
+  transform: scale(1.2);
+}
+
+.container{
+    min-height: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container form h1{
+    color: #F39C12;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #F39C12;
+}
+
+.container form input::placeholder{
+    color: black;
+}
+
+.container form #lastName,
+.container form #mobile{
+    margin-left: 20px;
+}
+
+.container form h4{
+    color: #F39C12;
+    font-size: 0.5cm;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #F39C12;
+    color: #F39C12;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+.container form #button{
+    border: none;
+    background: #F39C12;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.burger{
+    position: relative;
+    perspective-origin: 1cm;
+    top: -20cm; right: -25cm;
+}
+.salad{
+    position: relative;
+    top: -35cm;
+    left: -25%;
+  }
+  
+
+.container form #button:hover{
+    opacity: 0.7;
+}
